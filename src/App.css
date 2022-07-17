@@ -2,41 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 /* NavBar CSS */
 
 #icon {
@@ -44,3 +9,62 @@
   
 }
 
+/* ItemCount.JS */
+
+#counter {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 1rem ; 
+}
+
+#addtocart {
+  margin-left: 3rem;
+}
+
+#selector {
+  border: 1px solid black;
+  padding: 2rem;
+}
+
+/* ItemList.JS */
+.productcards{
+  display:inline-block;
+  font-size: 1.5rem;
+  padding: 1rem;
+  
+  
+}
+
+/* Loading animation */
+.loader {
+  margin: auto;
+  margin-top: 10rem;
+  border: 20px solid #EAF0F6;
+  border-radius: 50%;
+  border-top: 20px solid #282c34;
+  width: 300px;
+  height: 300px;
+  animation: spinner 4s linear infinite;
+}
+
+@keyframes spinner {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Item.JS */
+.details{
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+/* ItemDetail.JS */
+.titleprod{
+  font-size: 1.5rem;
+}
+.itemprice{
+  font-size: 1.5rem;
+  
+}
+
+/* ItemDetailContainer.JS */

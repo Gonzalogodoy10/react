@@ -23,8 +23,6 @@ const NavBar = () => {
                         <li className="nav-item">
                             <a className="nav-link" href="#">Hoodies</a>
                         </li>
-                        
-                                    {/* TEST ICON */}
                         <li  className="nav-item">
                             <a className="nav-link" href="#" >  <CartWidget/>  </a>
                         </li>
